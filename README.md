@@ -1,5 +1,6 @@
 # demo
 ## This is the demo file that I have created
+### This is a C program to find the Transpose of the given matrix
 ```c
 #include<stdio.h>
 int main()
@@ -24,9 +25,6 @@ int main()
                 for(j=0;j<m;j++)
                         printf("%d\t",trans[i][j]);
                 printf("\n");
-
-
-
         }
         return 0;
 }
