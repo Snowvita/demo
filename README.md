@@ -1,12 +1,10 @@
-# demo
-## This is the demo file that I have created
-### This is a C program to find the Transpose of the given matrix
+## C program to find the Transpose of the given matrix
 ```c
 #include<stdio.h>
 int main()
 {
         int i,j,a[4][4],trans[4][4],m,n;
-        printf("Enter row&col of a matrix: ");
+        printf("Enter the number of rows and columns of a matrix: ");
         scanf("%d %d",&m,&n);
         printf("Enter the values of a matrix:\n");
         for(i=0;i<m;i++)
